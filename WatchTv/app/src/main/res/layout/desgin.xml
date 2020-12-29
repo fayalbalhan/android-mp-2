@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginBottom="10dp"
+    android:background="#A9A9A9">
+
+    <TextView
+        android:id="@+id/Movies_Name"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:fontFamily="monospace"
+        android:text="Text View "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Movies_Year"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Movies_Name"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:fontFamily="monospace"
+        android:text="Year: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Movies_Genre"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Movies_Year"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:fontFamily="monospace"
+        android:text="Genre:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Movies_Rating"
+        android:layout_width="91dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/Movies_Genre"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:fontFamily="monospace"
+        android:text="Rating:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Display_Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Movies_Name"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/Movies_Year"
+        android:layout_toRightOf="@+id/Movies_Year"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        android:textColor="#D36A1A" />
+
+    <TextView
+        android:id="@+id/Display_Genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Display_Year"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/Movies_Year"
+        android:layout_toRightOf="@+id/Movies_Year"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        android:textColor="#D36A1A" />
+
+    <TextView
+        android:id="@+id/Display_Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Display_Genre"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/Movies_Year"
+        android:layout_toRightOf="@+id/Movies_Year"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        android:textColor="#D36A1A" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="126dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/tm_hki" />
+</RelativeLayout>
